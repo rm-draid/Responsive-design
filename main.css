@@ -179,13 +179,16 @@ a:hover {
     align-items: flex-start;
   }
 
-
+.office{
+  width: 329px;
+height: 340px;
+}
   .about h2 {
     font-size: 30px;
   }
 
   .about .description {
-    padding-top: 1px;
+    padding-top: 15px;
   }
 
   .about_us {
