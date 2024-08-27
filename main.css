@@ -173,10 +173,7 @@ a:hover {
     flex-wrap: wrap;
     position: relative;
   }
-  .office {
-    width: 329px;
-    height: 340px;
-  }
+
   .and_work_as {
     flex-direction: column;
     align-items: flex-start;
