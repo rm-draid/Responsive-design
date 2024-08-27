@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+:root {
+  --bg-primary: #32334c;
+  --text-primary: white;
+  --btn-primary: #ef6d58;
+}
+.contener {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+.upper_part {
+  display: flex;
+  justify-content: space-around;
+  background: var(--bg-primary);
+  padding-top: 15px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: 1.5s;
+}
+a:hover {
+  color: aqua;
+}
+.link {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  align-items: center;
+}
+.btn {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 18px 34px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  border: 0.5px solid slategrey;
+  border-radius: 9px;
+  transition: 2s;
+}
+.btn:hover {
+  background: blue;
+  color: aqua;
+  cursor: pointer;
+}
+.build_your {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.were_help {
+  align-items: center;
+}
+.how_we_work {
+  margin-top: 34px;
+  border: none;
+  background: var(--btn-primary);
+  color: var(--text-primary);
+}
+.meta_inc {
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 64px;
+}
+.nav_burger {
+  margin: 16px;
+  border-radius: 7px;
+  display: none;
+}
+.contain {
+  background: #f3d1bf;
+}
+.about_us {
+  margin-top: 42px;
+  background: var(--text-primary);
+  color: black;
+  border: none;
+}
+.about {
+  padding-top: 100px;
+}
+.looggoo {
+  display: flex;
+  justify-content: space-around;
+  padding: 72px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.experience_design {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  background: #f3d1bf;
+}
+.years_of_experience {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  background: #f3d1bf;
+}
+.projects_complete {
+  width: 391px;
+  height: 176px;
+  border: bisque solid 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin: 15px;
+}
+.and_work_as {
+  max-width: 1170px;
+  display: flex;
+  gap: 130px;
+}
+@media (max-width: 568px) {
+  .link {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .nav_burger {
+    display: flex;
+  }
+  .star_new {
+    display: none;
+  }
+  .how_we_work {
+    display: flex;
+  }
+  .build_your {
+    flex-direction: column;
+  }
+
+  .mix_new {
+    width: 329px;
+    height: 334px;
+    order: -1;
+    margin-bottom: 20px;
+    padding-bottom: 600px;
+  }
+  .range_including_technical p {
+    font-size: 16px;
+  }
+  .contact_us_link {
+    margin-top: 45px;
+  }
+  .how_work {
+    display: flex;
+    padding-top: 40px;
+  }
+
+  .contact_us_link {
+    text-align: center;
+  }
+  .meta_inc {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .looggoo {
+    display: flex;
+    padding: 60px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .office {
+    width: 329px;
+    height: 340px;
+    top: 1448px;
+    left: 23px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .and_work_as {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .office img {
+    width: 80px;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about .description {
+    padding-top: 15px;
+  }
+
+  .about_us {
+    display: flex;
+  }
+
+  .years_of_experience {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects_complete {
+    margin-bottom: 20px;
+  }
+}
